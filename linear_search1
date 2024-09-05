@@ -1,0 +1,21 @@
+public class linear_search1{
+    public void Lin_search(arr,a){
+        int n = len(arr);
+        for(int 1=0;i<n;i++){
+            if (a[i]=a){
+                System.out.println("Element at "+ i+1);
+            }
+            return;
+        }
+
+
+    }
+
+
+    public static void main(String []Args){
+        // Scanner sc =new Scanner;
+        arr=[1,7,8,9,2];
+        n=8;
+        Lin_search(arr,n);
+    }
+}
