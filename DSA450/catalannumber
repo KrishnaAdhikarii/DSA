@@ -1,0 +1,13 @@
+def findCatalan( num : int) -> int:
+    MOD=10**9+7
+    # code here
+    dp=[1]*(2*num+1)
+    for i in range(1,(2*num)+1):
+        dp[i]=dp[i-1]*i
+
+    return (dp[2*num]//dp[num+1])//dp[num] %MOD
+
+
+# Main
+
+print(findCatalan(9999))
